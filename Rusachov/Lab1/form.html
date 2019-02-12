@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form name="registration" method="POST" target="blank">
+        <fieldset>
+            <legend>Login</legend>
+        <input type="text" name="login" placeholder="Type login here" required>
+        </fieldset>
+        <fieldset>
+                <legend>Password</legend>
+
+        <input type="password"name="password" required>
+        </fieldset>
+        <fieldset>
+                <legend>Email</legend>
+        <input type="email" name="email" placeholder="example@gmail.com">
+        </fieldset>
+        <fieldset>
+                <legend>Name</legend>
+        <input type="text" name="name" placeholder="full name">
+        </fieldset>
+        <fieldset>
+                <legend>Age</legend>
+        <input type="number" name="age"value="18"min="18"max="60">
+        </fieldset>
+        <fieldset>
+            <legend>Approve</legend>
+        <label><input type="checkbox" value="yes">will you approve u r 18+?</label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <a href=index.html>Home</a>
+    </body>
+</html>
