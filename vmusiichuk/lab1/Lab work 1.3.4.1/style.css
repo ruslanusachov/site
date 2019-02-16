@@ -1,0 +1,41 @@
+* {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 10px;
+    background-color: gray;
+}
+
+header,
+footer {
+    background-color: black;
+
+}
+
+header {
+    text-align: right;
+}
+
+footer {
+    text-align: left;
+}
+
+button {
+    background-color: chocolate;
+}
+
+span {
+    background: yellow;
+}
+
+fieldset {
+    border-color: brown;
+}
+
+fieldset>button {
+    background-color: azure;
+    color: blue;
+}
+
+span button {
+    background-color: brown;
+}
