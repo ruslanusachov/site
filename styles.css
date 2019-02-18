@@ -1,0 +1,31 @@
+body{
+  background-image: url(world-map.png);
+  background-size: 100%;
+  background-position: 0 -200px;
+}
+
+h1{
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2{
+  letter-spacing: 2px;
+  font-style: italic;
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+p{
+  color: darkslategray;
+  text-indent: 20px;
+}
