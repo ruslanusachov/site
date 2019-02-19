@@ -1,0 +1,35 @@
+header, footer {
+background-color: aqua;
+padding: 15px;
+}
+header{
+    text-align: right;
+}
+footer {
+    text-align: left;
+}
+header button, footer button {
+    color: white;
+    background-color: teal;
+    padding: 20px;
+}
+.content {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 15px;
+    padding: 20px;
+}
+.section {
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.content button {
+    color: white;
+    background-color: navy;
+    padding: 15px;
+}
+.content > button {
+    color: white;
+    background-color: green;
+}
