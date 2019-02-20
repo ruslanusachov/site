@@ -1,0 +1,27 @@
+*{
+  border: 0;
+}
+header{
+  background: blue;
+  padding: 15px;
+}
+div{
+  background: orange;
+  margin-top: 40px;
+  padding-right: 15px;
+  display: inline-block;
+}
+button{
+  color: white;
+  display: inline-block;
+}
+header button{
+  background: purple;
+  padding: 15px;
+}
+div button{
+  background: orangered;
+}
+header button, div button{
+    margin-right:  20px;
+}
