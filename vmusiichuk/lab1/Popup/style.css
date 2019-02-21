@@ -29,10 +29,27 @@ div button{
 header button, div button{
     margin-right:  20px;
 }
-.popup{
+body{
+  height: 100vh;
+  position: relative;
   background: yellow;
-  background-position: center;
-  z-index: 10;
-  width: 300px;
-  height: 300px;
+}
+.popup{
+  background: #ffff;
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%; 
+  /* background-position: 25% 25%; */
+  /* vertical-align: middle; */
+  z-index: 41;
+  width: 400px;
+  height: 500px;
+  border: 2px solid red;
+  
+  text-align: center;
+  margin-left: -200px;
+  margin-top: -250px;
+  
+  
 }
