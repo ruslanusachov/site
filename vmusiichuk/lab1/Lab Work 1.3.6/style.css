@@ -21,6 +21,10 @@ header button{
 }
 div button{
   background: orangered;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  box-sizing: border-box;
 }
 header button, div button{
     margin-right:  20px;
