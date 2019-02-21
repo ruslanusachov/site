@@ -1,0 +1,35 @@
+header, footer{
+    background: aliceblue;
+    padding: 15px;
+}
+header {
+    text-align: right;
+}
+footer{
+    text-align:left;
+}
+header button, footer button{
+    color: white;
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+.section{
+    border-width: 1px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 20px;
+    margin: 15px;
+}
+.option {
+    margin: 10px;
+    background-color: beige;
+}
+.option button{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+.section>button{
+    background-color: white;
+    color: blue;
+}
