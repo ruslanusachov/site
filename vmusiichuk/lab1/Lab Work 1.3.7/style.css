@@ -3,10 +3,7 @@
     border: 2px double black;
     padding: 10px;
     display: flex;
-    box-pack: justify;
-    /* box-orient: horizontal;
-    box-sizing: content-box; */
-    
+    box-pack: justify;    
 }
 .columns{
     height: 100%;
@@ -15,8 +12,6 @@
     margin: 0;
     padding: 10px; 
     box-sizing: border-box;
-    
-    
 }
 .columns:nth-child(even){
     background: rgb(73, 72, 72);
