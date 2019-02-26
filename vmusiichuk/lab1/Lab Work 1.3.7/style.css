@@ -1,21 +1,24 @@
-.container{
-    height: 300px;
-    border: 2px double black;
-    padding: 10px;
-    display: flex;
-    box-pack: justify;    
+.container {
+  height: 300px;
+  border: 2px double black;
+  padding: 10px;
+  display: flex;
+  box-pack: justify;
 }
-.columns{
-    height: 100%;
-    display: inline-flex;
-    width: 25%;
-    margin: 0;
-    padding: 10px; 
-    box-sizing: border-box;
+
+.columns {
+  height: 100%;
+  display: inline-flex;
+  width: 25%;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.columns:nth-child(even){
-    background: rgb(73, 72, 72);
+
+.columns:nth-child(even) {
+  background: rgb(73, 72, 72);
 }
-.columns:nth-child(odd){
-    background: gray;
+
+.columns:nth-child(odd) {
+  background: gray;
 }
