@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Popup</title>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis porro, perferendis voluptas officiis odio obcaecati fugiat perspiciatis quibusdam vel in inventore! Modi molestiae, excepturi repudiandae id perspiciatis illum, expedita culpa nisi nam non soluta sequi, sunt beatae dolore quos dolores dolorem aperiam eaque. Architecto ullam totam labore! Laboriosam doloremque fugiat facere distinctio expedita quos, nostrum magnam vero doloribus deserunt dolorum molestiae hic repellat quis tenetur cumque illo praesentium qui recusandae nemo perspiciatis nam! Ducimus praesentium aliquam sit mollitia atque sed reiciendis similique consequatur facere quasi ipsam voluptates dignissimos dolore totam, ipsa impedit magni neque fugiat iste alias inventore velit molestiae!</p>
+  <a href="#" class="open">OPEN POPUP</a>
+  <div class="popup" id="popup">
+    <h1>Popup</h1>
+  </div>
+  <div class="popup-bg"></div>
+  <div class="shtototam"></div>
+</body>
+
+<script>
+  let popup = document.getElementById('popup');
+  let openBtn = document.getElementsByClassName('open')[0];
+  let close = document.getElementsByClassName('popup-bg')[0];
+  openBtn.addEventListener('click', () => {
+    popup.classList.add('show');
+    close.classList.add('show');
+  });
+  close.addEventListener('click', () => {
+    popup.classList.remove('show');
+    close.classList.remove('show');
+  });
+</script>
+</html>
