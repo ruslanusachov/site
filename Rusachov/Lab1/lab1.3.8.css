@@ -26,7 +26,6 @@ body {
     margin: auto;
     border: 4px solid #fff;
     border-radius: 50%;
-    transition: 0.5s transform;
 }
 .mars {
     position: absolute;
@@ -40,17 +39,22 @@ body {
     margin: auto;
     background-color: brown;
     z-index: 5;
-    animation: orbit linear 6s infinite;     
+    animation: orbit linear 6s infinite; 
+    transition: transform 0.5s ;
+
 }
 .sun:hover {
     -webkit-transform: scale(1.2);
 
 }
-.mars:hover{
+.mars:hover {
   width: 60px;
   height: 60px;
-  left: calc(50% - 30px);
-  top: calc(50% - 30px);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 @keyframes orbit {
