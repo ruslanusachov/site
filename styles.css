@@ -80,3 +80,36 @@ p{
 }
 
 /* Styles for labwork with popup END */
+
+/* Styles for labwork with gradients START */
+
+.four-columns:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.four-columns { 
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0, #eee),
+		color-stop(25%, #eee),
+		color-stop(25%, #ccc),
+		color-stop(50%, #ccc),
+		color-stop(50%, #eee),
+		color-stop(75%, #eee),
+		color-stop(75%, #ccc),
+		color-stop(100%, #eee)
+	);   	
+}
+.four-columns .col {
+  width: 21%; float: left; padding: 2%;
+}
+		
+		
+/* Styles for labwork with gradients END */
