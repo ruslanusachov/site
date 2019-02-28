@@ -12,7 +12,7 @@ body {
     margin-top: -50px;
     background-color: yellow;
     border-radius: 50%;
-    -webkit-transition: 0.5s transform;
+    transition: 0.5s transform;
     z-index: 5;
 }
 .mars-orbit {
@@ -40,7 +40,7 @@ body {
     background-color: brown;
     z-index: 5;
     animation: orbit linear 6s infinite; 
-    transition: transform 0.5s ;
+    transition: transform 0.5s  width 0.5s height 0.5s left 0.5s right 0.5s;
 
 }
 .sun:hover {
