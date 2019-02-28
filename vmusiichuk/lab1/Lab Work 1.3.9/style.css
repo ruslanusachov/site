@@ -1,0 +1,62 @@
+header{
+    background: blue;
+    display: flex;
+    padding: 10px;
+}
+header button{
+    background: orange;
+    padding: 10px;
+    display: flex;
+    margin-right: 10px;
+    color: white;
+}
+header button:nth-child(3){
+    margin-left: auto;
+}
+
+/* main{
+    flex-direction: column;
+} */
+.events, .jobs{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-top: 20px;
+    /* flex-wrap: wrap;
+    box-pack: justify; */
+    /* align-content: stretch; */
+}
+.events div, .jobs div{
+    /* display: inline-flex; */
+    padding: 10px;
+}
+.description{
+    background: khaki;
+    /* flex-basis: auto; */
+    flex-grow: 1;
+}
+.date, .price{
+    flex: 0 0 200px;
+    background: lightgoldenrodyellow;
+    border: 1px solid pink;
+}
+
+.jobs{
+    color: white;
+}
+.name{
+    flex: 0 0 200px;
+    margin-right: 15px;
+    background: red;
+}
+.job_description{
+    background: tomato;
+}
+.job_description button{
+    padding: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    float: right; 
+}
