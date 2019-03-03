@@ -1,0 +1,71 @@
+.container{
+    background-color: aqua;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color: red;
+    border:0;
+}
+
+.container {
+    display: flex;
+}
+.button.flex-element {
+    margin-left: auto;
+}
+
+.event {
+    display: flex;
+   padding: 15px;
+
+}
+.event-fluidColumn {
+    flex-grow: 1;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: thin;
+    background-color: beige;
+    
+}
+.event-fixedColumn {
+    background-color: wheat;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: thin;
+    padding: 15px;
+}
+.event-fixedColumn {
+    flex: 0 0 200px;
+}
+.job {
+    display: flex;
+}
+.job-fixedColumn {
+    flex: 0 0 200px;
+    border: red thin solid;
+    color: white;
+    background-color: red;
+    margin: 15px;
+    padding: 15px;
+}
+.job-fluidColumn {
+    display: flex;
+    flex-grow: 1;
+    border: orange thin solid;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    background-color: orange;
+}
+.apply-button {
+    align-self: flex-end;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100px;
+}
