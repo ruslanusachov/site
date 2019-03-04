@@ -1,0 +1,103 @@
+/* Start of layout styles*/
+body {
+  margin: 0;
+  padding-top: 75px;
+}
+
+.header {
+  position: fixed;
+  margin-top: -75px;
+  padding: 20px;
+}
+
+.header-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.left-nav {
+  width: 30%;
+}
+.content-area {
+  display: block;
+  float: left;
+  width: 70%;
+}
+
+.button {
+  margin: 10px 0;
+}
+
+.main-area {
+  width: 60%;
+}
+
+.display-block {
+  display: block;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.padding30 {
+  padding: 30px;
+}
+
+.float-left {
+  float: left;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+.margin10 {
+  margin: 10px;
+}
+
+/* Start of skin styles */
+.header {
+  background-color: #f7fdfe;
+}
+
+.button {
+  outline: none;
+}
+
+.main-area {
+  color: darkgray;
+}
+
+.darkseagreen {
+  background-color: darkseagreen;
+}
+
+.border-green {
+  border: solid 1px darkgreen;
+}
+
+.border-radius3 {
+  border-radius: 3px;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.color-white {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.border0ebfdd {
+  border: 1px solid #0ebfdd;
+}
+/* Вопрос №1 Что значит установить свой reset?
+   Вопрос №2 Стоит ли ради одного свойства применять отдельный класс или не надо так сильно дробить код? */
