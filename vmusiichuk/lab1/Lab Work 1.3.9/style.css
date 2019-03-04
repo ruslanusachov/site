@@ -1,62 +1,75 @@
-header{
+header {
     background: blue;
     display: flex;
     padding: 10px;
 }
-header button{
+
+header button {
     background: orange;
     padding: 10px;
     display: flex;
     margin-right: 10px;
     color: white;
 }
-header button:nth-child(3){
+
+header button:nth-child(3) {
     margin-left: auto;
 }
 
-/* main{
-    flex-direction: column;
-} */
-.events, .jobs{
+.events,
+.jobs {
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding-top: 20px;
-    /* flex-wrap: wrap;
-    box-pack: justify; */
-    /* align-content: stretch; */
 }
-.events div, .jobs div{
-    /* display: inline-flex; */
+
+.events div,
+.jobs div {
     padding: 10px;
 }
-.description{
+
+.description {
     background: khaki;
-    /* flex-basis: auto; */
     flex-grow: 1;
 }
-.date, .price{
+
+.date,
+.price {
     flex: 0 0 200px;
     background: lightgoldenrodyellow;
     border: 1px solid pink;
 }
 
-.jobs{
+.jobs {
     color: white;
 }
-.name{
+
+.name {
     flex: 0 0 200px;
     margin-right: 15px;
     background: red;
 }
-.job_description{
+
+.job_description {
     background: tomato;
+    display: flex;
+    /* align-items: flex-end; */
 }
-.job_description button{
+/* .job_description p{
+    align-items: flex-start;
+} */
+
+.job_description button {
     padding: 20px;
     background: red;
     color: white;
     border-radius: 5px;
     border: none;
-    float: right; 
+    /* float: right; */
+    align-self: flex-end;
+    
+}
+.job_description button::after{
+    clear: both;
 }
