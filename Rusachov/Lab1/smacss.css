@@ -5,7 +5,7 @@ body {
   }
  
   /*Layout styles*/
-  .header {
+  .l-header {
     position: fixed;
     width: 100%;
     margin-top: -75px;
@@ -13,17 +13,17 @@ body {
     padding: 20px;
   }
   
-  .content-area {
+  .l-content-area {
     display: block;
     float: left;
     width: 70%;
   }
   
-  .main-area {
+  .l-main-area {
     width: 60%;
     color: darkgray;
   }
-  .left-nav {
+  .l-left-nav {
     width: 30%;
   }
   .layout-structure {
