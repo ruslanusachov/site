@@ -1,0 +1,50 @@
+/*Basement styles*/
+html body {
+    background-image: url(https://2.bp.blogspot.com/-hcknVuVLmPY/WLi-heAG3CI/AAAAAAAAIT4/-uPudNMaFtclo4AwPEZ4ep-Xg6EHQTHfQCLcB/s1600/Mirage+00+1965.jpg);
+}
+
+/*layout structure*/
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-item {
+    width: 300px;
+    height: 50px;
+}
+/*layout skin*/
+header {
+    color: yellow;
+font-size: 30px;
+}
+.form-item {
+    border: white 2px solid;
+    border-radius: 5px;
+}
+/*Module structure*/
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 50px;
+    width: 70px;
+}
+
+/*Module skin*/
+.button {
+    color: white;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+}
+.legend-name {
+    color: white;
+}
+.text {
+    color: white;
+}
