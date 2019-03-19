@@ -1,3 +1,11 @@
+.content_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 ul {
   list-style-type: none;
   padding: 0;
