@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500");
+.header, .carousel {
+  background: url("grey_back.jpg"); }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.logo {
+  width: 100%;
+  max-width: 160px; }
+
+.basket a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .basket a span {
+    padding: 0 20px; }
+
+.grey {
+  color: grey; }
+
+.top-menu {
+  font-size: 16pt;
+  padding: 20px 0 10px; }
+
+h2 {
+  font-size: 55pt; }
+
+.text-learn_more {
+  padding: 50px 0 0 20px; }
+
+.learn-more {
+  background-color: #fb565a;
+  color: white;
+  display: block;
+  margin: 50px 0;
+  text-transform: uppercase; }
+
+.adventages {
+  margin: 100px 0; }
+
+.article {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .article a {
+    text-decoration: none; }
+  .article h2 {
+    font-size: 24pt;
+    padding: 20px 0; }
+  .article p {
+    font-size: 16pt; }
+
+.button {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px; }
+
+.button-1 {
+  background: #fb565a; }
+
+.button-2 {
+  background: #00ca74; }
+
+.button-3 {
+  background: #efc849; }
+
+.studio ul {
+  list-style: none;
+  padding: 0; }
+  .studio ul li {
+    padding: 15px 0; }
+    .studio ul li .li-image {
+      margin-right: 10px; }
+
+.studio .percent {
+  font-size: 45px; }
+
+.studio .studio-link {
+  margin: 50px 0; }
+
+.text-header {
+  font-size: 45px; }
+
+.p-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0; }
+
+.description {
+  color: grey;
+  font-size: 16px; }
+
+.contacts {
+  background: url(map-fone.jpg) 100% 100% no-repeat; }
+  .contacts .write_us {
+    margin: 50px;
+    background: white;
+    padding: 20px 50px 50px; }
+  .contacts .marker {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+.social {
+  margin: 10px;
+  padding: 30px;
+  background: #e1e1e1;
+  border-radius: 100%; }
+  .social i {
+    color: white;
+    width: 30px;
+    font-size: 1.7em; }
+
+.social-footer {
+  margin: 50px 0; }
