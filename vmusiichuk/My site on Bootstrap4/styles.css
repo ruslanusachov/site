@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:500");
-.header, .carousel {
+.header,
+.carousel {
   background: url("grey_back.jpg"); }
 
 body {
@@ -27,7 +28,7 @@ body {
   padding: 20px 0 10px; }
 
 h2 {
-  font-size: 55pt; }
+  font-size: 55px; }
 
 .text-learn_more {
   padding: 50px 0 0 20px; }
