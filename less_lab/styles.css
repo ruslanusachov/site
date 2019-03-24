@@ -1,12 +1,12 @@
 h3 {
-  color: #000;
+  color: #cf1919;
 }
 ul {
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #cf1919;
 }
 ul li {
   text-transform: uppercase;
-  color: #333333;
+  color: #ec6262;
 }
 ul a {
   color: red;

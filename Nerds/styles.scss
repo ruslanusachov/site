@@ -1,0 +1,226 @@
+$maincolor: #000000;
+$themecolor: $maincolor;
+.nav-link {
+    color: $themecolor;
+}
+.block1 {
+    background-image: url(bg1.png);
+}
+.shopping-cart {
+    color: #a6a6a6;
+}
+.text1 {
+    margin-top: 40px;
+}
+.btn-danger {
+    margin-top: 45px;
+}
+
+.carousel-item {
+    min-height: 400px;
+}
+%item_with_bg {
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.first-item {
+    background-image: url(slide1.png);
+    @extend %item_with_bg;
+}
+.second-item {
+    background-image: url(slide2.png);
+    @extend %item_with_bg;
+}
+.third-item {
+    background-image: url(slide3.png);
+    @extend %item_with_bg;
+}
+.learn-more {
+    background-color: #fb565a !important;
+    @extend %learn-more;
+}
+%learn-more {
+    color: white !important;
+    text-transform: uppercase !important;
+    margin: 45px 0;
+    display: block !important;
+    max-width: 240px;
+    width: 100%;
+}
+.carousel-indicators li {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    opacity: 1 !important;
+    text-indent: 0 !important;
+
+.round-item {
+    border: 2px solid transparent;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+    position: absolute;
+  }
+  &.active .round-item {
+      border: 2px solid #c2c2c2;
+  }
+}
+.heading {
+    margin-top: 30px;
+}
+.custom-btn {
+    width: 160px;
+    max-width: 100%;
+    padding: 17px !important;
+}
+.btn1 {
+    background-color: #fb565a !important;
+    @extend %learn-more;
+}
+.btn2 {
+    background-color: #00ca74 !important;
+    @extend %learn-more;
+}
+.btn3 {
+    background-color: #efc84a !important;
+    @extend %learn-more;
+}
+.bg {
+    background-image: url(bg-white.png);
+}
+.border {
+    border: #eeeeee, 2px, solid !important;
+}
+.custom-border {
+    padding: 75px 0;
+}
+ul {
+    list-style-type: none;
+    li.line {
+        padding: 15px 0;
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            background-color: #fb565a;
+            left: -30px;
+            top: 25px;
+            display: block;
+        }
+    }
+}
+.custom-image {
+    margin-top: -40px;
+    width: 360px;
+}
+%sub-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.p-header {
+    font-size: 16px;
+    @extend %sub-header;
+}
+.sub-header {
+    @extend %sub-header;
+}
+.custom-p {
+    margin-top: 35px;
+}
+.percent {
+    font-size: 35px;
+}
+
+%logo{
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+a.partners1:hover {
+    background-image: url(html-academy-black.png);
+    @extend %logo;
+}
+a.partners2:hover {
+    background-image: url(borodinski-black.png);
+    @extend %logo;
+}
+a.partners3:hover {
+    background-image: url(pink-black.png);
+    @extend %logo;
+}
+a.partners4:hover {
+    background-image: url(mishka-black.png);
+    @extend %logo;
+}
+.contacts {
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+    height: 420px;
+}
+.write_us {
+position: absolute;
+padding-top: 50px;
+padding-right: 50px;
+padding-bottom: 45px;
+padding-left: 50px;
+margin-top: 55px;
+margin-left: 55px;
+background-color: #fff;
+}
+.studio {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+%text-color {
+    color: #666666;
+}
+.modal-text {
+    @extend %text-color;
+}
+.btn4 {
+    background-color: #fb565a !important;
+    color: white !important;
+    text-transform: uppercase !important;
+    display: block !important;
+    max-width: 240px;
+    width: 100%;
+}
+.map-marker {
+    position: absolute;
+    top: 86px;
+    left: 33px;
+}
+.icon {
+    background-color: #e1e1e1;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    border-radius: 100%;
+    padding: 20px;
+    color: #ffffff;
+    &:hover {
+        background-color: #f66464;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        border-radius: 100%;
+        padding: 20px;
+    }
+}
+.footer {
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+
+
+

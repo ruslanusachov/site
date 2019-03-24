@@ -1,0 +1,132 @@
+ul {
+  list-style-type: none;
+  text-decoration: none; }
+
+/*Layout*/
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none; }
+
+.menu li a {
+  margin-top: 55px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: #000000 4px solid;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  letter-spacing: 1px;
+  font-size: 10; }
+
+.menu li a:hover, .menu li a.active {
+  border-bottom: #000000 4px solid; }
+
+.socials {
+  position: fixed;
+  right: 30px;
+  height: 100px;
+  width: 40px;
+  top: calc(50%-50px); }
+
+.socials a {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000000; }
+
+.socials a:active {
+  color: #000000; }
+
+.socials a:hover {
+  color: navy; }
+
+.annotation .quote {
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  max-width: 100%;
+  font-family: 'Amatic SC', cursive;
+  color: #355d7b;
+  padding-top: 40px;
+  font-weight: bold; }
+
+.mission-wrapper {
+  width: 700px;
+  margin: auto;
+  border: 4px solid #000000;
+  text-align: center;
+  margin-top: 40px; }
+
+.mission-wrapper .title {
+  background: #000000;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 10px 40px;
+  top: -25px; }
+
+.mission-wrapper .text {
+  margin: 0;
+  padding: 0 40px 38px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.bio-wrapper {
+  width: 805px;
+  margin: auto;
+  margin-top: 280px;
+  padding-left: 60px; }
+
+.bio-text .name {
+  font-size: 15;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  color: #000000; }
+
+.bio-text {
+  font-size: 12;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  color: #355d7b;
+  word-spacing: 10px;
+  letter-spacing: 1px; }
+
+h2 {
+  width: 805px;
+  margin: auto;
+  margin-top: 280px;
+  padding-left: 60px; }
+
+h2 {
+  font-size: 15;
+  font-weight: bolder;
+  font-family: cursive;
+  color: #000000; }
+
+.offer-wrapper {
+  margin-top: 30px; }
+
+.frame-image {
+  z-index: 5; }
