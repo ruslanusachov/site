@@ -18,6 +18,10 @@ body {
   a {
     display: inline-flex;
     align-items: center;
+    @media screen and (max-width:768px){
+      margin-left: -16px;
+      
+    }
 
     span {
       padding: 0 20px;
@@ -43,30 +47,32 @@ h2 {
 .text-learn_more {
   padding: 50px 0 0 20px;
 
-  h1{
+  h1 {
     font-size: 55px;
   }
 }
-.carousel-item{
+
+.carousel-item {
   min-height: 400px;
 }
 
-%item_with_bg{
+%item_with_bg {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 700px;
 }
 
-.first-item{
+.first-item {
   @extend %item_with_bg;
   background-image: url('slide1.png');
 }
 
-.second-item{
+.second-item {
   @extend %item_with_bg;
   background-image: url('slide2.png');
 }
-.third-item{
+
+.third-item {
   @extend %item_with_bg;
   background-image: url('slide3.png');
 }
@@ -80,7 +86,7 @@ h2 {
   position: relative;
 
 
-  .round-item{
+  .round-item {
     border: 2px solid transparent;
     width: 8px;
     height: 8px;
@@ -89,6 +95,7 @@ h2 {
     top: calc(50% - 4px);
     position: absolute;
   }
+
   &.active .round-item {
     border: 2px solid #c2c2c2;
   }
@@ -108,15 +115,14 @@ h2 {
 }
 
 .adventages {
-  margin: 100px 0;
-
-  hr {}
+  margin: 80px 0 0;
 }
 
 .article {
   box-sizing: border-box;
 
-  // margin-bottom: 50px;
+  margin-bottom: 50px;
+
   a {
     text-decoration: none;
   }
@@ -128,7 +134,6 @@ h2 {
 
   p {
     font-size: 16px;
-
   }
 
 
@@ -167,7 +172,7 @@ h2 {
       padding: 15px 0;
       position: relative;
 
-      &:before{
+      &:before {
         content: '';
         width: 25px;
         height: 2px;
@@ -180,13 +185,33 @@ h2 {
     }
   }
 
+  .text-header {
+    font-size: 45px;
+  }
 
   .percent {
     font-size: 45px;
   }
 
-  .studio-link {
-    margin: 50px 0;
+
+}
+
+.studio-link {
+  margin: 50px 0 80px;
+
+}
+
+.logos-wrapper {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+
+.studio-a {
+
+  &:hover,
+  &.active {
+    opacity: 0.5;
   }
 }
 
@@ -211,12 +236,14 @@ h2 {
   background: url(map-fone.jpg) 100% 100% no-repeat;
   // background-size: 100%;
   // background-size: cover;
-
+  .p-header{
+    font-size: 18px;
+  }
   .write_us {
 
     margin: 50px;
     background: white;
-    padding: 20px 50px 50px;
+    padding: 20px 50px 10px;
 
   }
 
@@ -230,9 +257,11 @@ h2 {
   }
 }
 
-.logos-wrapper{
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+.social-footer {
+  margin: 50px 0;
+}
+.media{
+  justify-content: center;
 }
 
 .social {
@@ -247,8 +276,4 @@ h2 {
     width: 30px;
     font-size: 1.7em;
   }
-}
-
-.social-footer {
-  margin: 50px 0;
 }

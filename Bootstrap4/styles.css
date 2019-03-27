@@ -16,6 +16,9 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 768px) {
+    .basket a {
+      margin-left: -16px; } }
   .basket a span {
     padding: 0 20px; }
 
@@ -80,11 +83,12 @@ h2 {
   display: block; }
 
 .adventages {
-  margin: 100px 0; }
+  margin: 80px 0 0; }
 
 .article {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-bottom: 50px; }
   .article a {
     text-decoration: none; }
   .article h2 {
@@ -124,11 +128,22 @@ h2 {
       top: 25px;
       position: absolute; }
 
+.studio .text-header {
+  font-size: 45px; }
+
 .studio .percent {
   font-size: 45px; }
 
-.studio .studio-link {
-  margin: 50px 0; }
+.studio-link {
+  margin: 50px 0 80px; }
+
+.logos-wrapper {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center; }
+
+.studio-a:hover, .studio-a.active {
+  opacity: 0.5; }
 
 .text-header {
   font-size: 36px;
@@ -146,10 +161,12 @@ h2 {
 
 .contacts {
   background: url(map-fone.jpg) 100% 100% no-repeat; }
+  .contacts .p-header {
+    font-size: 18px; }
   .contacts .write_us {
     margin: 50px;
     background: white;
-    padding: 20px 50px 50px; }
+    padding: 20px 50px 10px; }
   .contacts .marker {
     position: relative;
     right: 0;
@@ -158,9 +175,13 @@ h2 {
     bottom: 0;
     margin: auto; }
 
-.logos-wrapper {
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee; }
+.social-footer {
+  margin: 50px 0; }
+
+.media {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .social {
   margin: 7px;
@@ -171,6 +192,3 @@ h2 {
     color: white;
     width: 30px;
     font-size: 1.7em; }
-
-.social-footer {
-  margin: 50px 0; }
