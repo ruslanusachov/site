@@ -192,3 +192,14 @@ h2 {
     color: white;
     width: 30px;
     font-size: 1.7em; }
+
+.popup {
+  max-width: 960px;
+  width: 100%;
+  max-height: 580px;
+  height: 100%;
+  background: #efc849;
+  padding: 100px; }
+  .popup input[type=text] {
+    width: 100%;
+    min-height: 110px; }
