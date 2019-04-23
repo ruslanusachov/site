@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Nerds</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="top-menu">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="col-lg-4 col-6">
+            <a class="navbar-brand" href="#">
+              <div class="logo "><img src="nerds-logo.png" alt="logo"></div>
+            </a>
+          </div>
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-lg-8">
+            <div class="collapse navbar-collapse text-uppercase font-weight-bold" id="navbarTogglerDemo01">
+              <div class="col-lg-8">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link text-dark" href="#">Студия</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Клиенты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Магазин</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <div class="basket "><a class="nav-link text-dark" href="#"><i
+                      class="fas fa-shopping-cart grey"></i><span>Корзина</span></a></div>
+              </div>
+            </div>
+
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <section class="carousel">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators custom-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><span
+                class="round-item"></span></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"><span class="round-item"></span></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"><span class="round-item"></span></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item first-item active">
+              <div class="row">
+                <div class="col-lg-5 col-12">
+                  <div class="text-learn_more">
+                    <h1>Долго, долго, скрупулезно.</h1>
+                    <span>Математически вивереный дизайн для вашего сайта или мобильного приложения</span>
+                    <button type="button" class="learn-more btn" data-toggle="modal" data-target="#exampleModalCenter">
+                        Узнать больше
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item second-item">
+              <div class="row">
+                <div class="col-lg-8 col-12">
+                  <div class="text-learn_more">
+                    <h1>Любим математику как никто другой</h1>
+                    <span>Никакого креатива, только математические формулы для расчета и</span>
+                    <button type="button" class="learn-more btn" data-toggle="modal" data-target="#exampleModalCenter">
+                        Узнать больше
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item third-item">
+              <div class="row">
+                <div class="col-lg-8 col-12">
+                  <div class="text-learn_more">
+                    <h1>Только ночь, только хардкор</h1>
+                    <span>Работать днем, как все? Мы против этого. Ближе к полуночи работ</span>
+                    <button type="button" class="learn-more btn" data-toggle="modal" data-target="#exampleModalCenter">
+                        Узнать больше
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="adventages">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <article class="article">
+              <img src="illustration-1.jpg" alt="" class="w-100">
+              <div class="text-article">
+                <h2>ВЕБ-САЙТЫ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis pariatur minus.</p>
+              </div>
+              <a href="#">
+                <div class="button button-1 col-md-6 col-12">
+                  <span>Заказать</span>
+                </div>
+              </a>
+            </article>
+          </div>
+          <div class="col-md-4 col-12">
+            <article class="article">
+              <img src="illustration-2.jpg" alt="" class="w-100">
+              <div class="text-article">
+                <h2>ПРИЛОЖЕНИЯ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis pariatur minus.</p>
+              </div>
+              <div class="button button-2 col-md-6 col-12">
+                <span>Заказать</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 col-12">
+            <article class="article">
+              <img src="illustration-3.jpg" alt="" class="w-100">
+              <div class="text-article">
+                <h2>ПРЕЗЕНТАЦИИ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis pariatur minus.</p>
+              </div>
+              <div class="button button-3 col-md-6 col-12">
+                <span>Заказать</span>
+              </div>
+          </div>
+          </article>
+
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section class="studio">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-8">
+            <p class="text-header">
+              Мы — маленькая, но гордая дизайн-студия из Краснодара.
+            </p>
+            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus commodi odio
+              cumque velit voluptatum ad aut, ducimus corrupti enim dolorem.</p>
+            <p class="p-header">Виполняем заказы на разработку:</p>
+            <ul>
+              <li>Веб-сайтов любой сложности</li>
+              <li>Mобильных приложенй для iOS и Android</li>
+              <li>Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <img src="nerds-img.jpg" alt="" class="w-100">
+            <p class="p-header text-center">с 2004 года Любим точность во всем:</p>
+            <div class="row ">
+              <div class="col-4">
+                <p class="percent font-weight-bold">145<sup>%</sup> </p>
+                <p class="description">Уровень самоотдачи</p>
+              </div>
+              <div class="col-4">
+                <p class="percent font-weight-bold">100<sup>%</sup></p>
+                <p class="description">Соблюдение сроков</p>
+              </div>
+              <div class="col-4">
+                <p class="percent font-weight-bold">50<sup>%</sup></p>
+                <p class="description">Минимальная предоплата</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="studio-link">
+      <div class="logos-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 studio-a"><a href="#"><img src="logo-1.png" alt=""></a></div>
+            <div class="col-lg-3 col-md-6 col-12 studio-a"><a href="#"><img src="logo-2.png" alt=""></a></div>
+            <div class="col-lg-3 col-md-6 col-12 studio-a"><a href="#"><img src="logo-3.png" alt=""></a></div>
+            <div class="col-lg-3 col-md-6 col-12 studio-a"><a href="#"><img src="logo-4.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="write_us">
+              <p class="p-header">NЁRDS DESIGN STUDIO</p>
+              <p class="description">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </p>
+              <p class="p-phone">тел. +7 (812)275-75-75</p>
+              <button type="button" class="learn-more btn" data-toggle="modal" data-target="#exampleModalCenter">
+                Узнать больше
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="popup">
+                      <form action="">
+                        <input type="email">
+                        <input type="password" >
+                        <input type="text">
+                        <button type="submit" class="learn-more btn">Send</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="marker">
+              <img src="map-marker.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="social-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="media">
+              <div class="social text-center">
+                <a href="#"><i class="fab fa-vk fa-2x"></i></a>
+              </div>
+              <div class="social text-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="social text-center">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-12 offset-lg-1">
+            <p class="text-header">Давайте дружить, это выгодно!</p>
+            <p class="description">Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

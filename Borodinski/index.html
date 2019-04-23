@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Borodinski</title>
+</head>
+
+<body>
+  <header class="header">
+      <div class="container-fluid">
+        <nav class="nav navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item mt-2">
+                <a href="#" class="nav-link">Информация</a>
+              </li>
+              <li class="nav-item mt-2">
+                  <a href="#" class="nav-link">Новости</a>
+              </li>
+              <li class="nav-item mt-2">
+                  <a href="#" class="nav-link">Прайс-лист</a>
+              </li>
+              <li class="nav-item mt-2">
+                  <a href="#" class="nav-link">Магазин</a>
+              </li>
+              <li class="nav-item mt-2">
+                  <a href="#" class="nav-link">Контакты</a>
+                </div>
+              </li>
+              <li class="nav-item mt-2">
+                  <a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i></a>
+              </li>
+              <!-- button-trigger-modal -->
+              <li class="nav-item custom-btn">           
+                  <button type="button" class="btn nav-item custom-button mt-3" data-toggle="modal" data-target="#exampleModal">
+                      вход
+                    </button>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <h5 class="modal-title" id="exampleModalLabel">ЛИЧНЫЙ КАБИНЕТ</h5>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <span class="modal-text">введите, пожалуйста, свой логин и пароль</span>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group mt-1">
+                          <input type="email" class="form-control form1 modal-icon1" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="логин">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group mt-5">
+                          <input type="password" class="form-control form2 modal-icon2" id="exampleInputPassword1"
+                            placeholder="пароль">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <input type="checkbox" checked class="check">
+                        <span class="modal-text modal-subtext1">запомните меня</span>
+                      </div>
+                      <div class="col-6">
+                        <a href="#" class="modal-text modal-subtext2">я забыл пароль</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12"><button type="submit" class="btn form-btn">войти</button></div>
+                    </div>
+
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+      </nav>
+    </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container-fluid">
+        <a href="#"><img src="index-logo.png" alt="barbershop Borodinski" class="rounded mx-auto d-block mt-md-5"></a>
+        <div class="row">
+          <div class="col-md-4 section-container">
+            <span class="section-subheading justify-content-center">Быстро</span>
+            <div class="mx-auto section-shape" style="width: 200px;">
+              <img src="Shape.png" alt="">
+            </div>
+            <p class="section-text">Мы делаем свою работу быстро! Два часа<br>пролетят незаметно и Вы -
+              счастливый<br>обладатель стильной стрижки-минутки!</p>
+          </div>
+          <div class="col-md-4 section-container">
+            <span class="section-subheading justify-content-center">Круто</span>
+            <div class="mx-auto section-shape" style="width: 200px;">
+              <img src="Shape.png" alt="">
+            </div>
+            <p class="section-text">Забудьте, как вы стриглись раньше.<br>Мы сделаем из вас звезду футбола или
+              кино!<br>Во всяком случае внешне.</p>
+          </div>
+          <div class="col-md-4 section-container justify-content-center">
+            <span class="section-subheading justify-content-center">Дорого</span>
+            <div class="mx-auto section-shape" style="width: 200px;">
+              <img src="Shape.png" alt="">
+            </div>
+            <p class="section-text">Наши мастера - професионалы своего дела и<br>не могут стричь дешево. К тому
+              же,<br>разве цена не дает определенные статус?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid bg-news mt-md-5">
+        <div class="row news">
+          <div class="col-md-7">
+            <h3 class="news-heading">Новости</h3>
+            <p class="news-text">Нам наконец завезли Ягермайстер! Теперь вы можете<br>пропустить стаканчик во время
+              стрижки</p>
+            <p class="sub-text">11 января</p>
+            <p class="news-text">В нашей команде пополнение, Борис "Бритва" Стригунец,<br> обладатель множества титулов
+              и наград, пополнил наши<br>стройные ряды</p>
+            <p class="sub-text">18 января</p>
+            <a href="#" class="btn btn-news">все новости</a>
+          </div>
+          <div class="col-md-5">
+            <h3 class="news-heading">Фотогалерея</h3>
+            <img src="gallery.png" alt="Фотогалерея" class="news-gallery">
+            <a href="#" class="btn btn-gallery">назад</a>
+            <a href="#" class="btn btn-gallery">вперед</a>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="container-fluid bg-news mt-5">
+        <div class="row news">
+          <div class="col-md-7">
+            <h3 class="news-heading">Контактная информация</h3>
+            <p class="news-text">Барбершоп "Бородинский"<br>Адрес: г. Санкт-Петербург, Б. Коюшенная, д.19/8<br>Телефон:
+              +7(495)666-02-66</p>
+            <p class="news-text">время работы:<br>пн-пт с 10:00 до 22:00<br>сб-вс с 10:00 до 19:00</p>
+            <!-- <a href="#" class="btn btn-news">как проехать</a> -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-news" data-toggle="modal" data-target="#exampleModal2">
+              как проехать
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                  <div class="modal-body">
+                    <img src="map.png" alt="map" class="modal-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-news2">обратная связь</a>
+          </div>
+          <div class="col-md-5">
+            <h3 class="news-heading">Записаться</h3>
+            <p class="news-text">укажите желаемую дату и время и мы свяжемся<br>с вами для подтверждения брони</p>
+            <form action="">
+              <div class="row ml-5">
+                <div class="col">
+                  <label for="date" class="news-text form-heading">Дата</label>
+                  <input type="text" id="date" class="mr-3 form" placeholder="08.10.2017">
+                </div>
+                <div class="col">
+                  <label for="time" class="news-text form-heading">Время</label>
+                  <input type="text" id="time" class="ml-3 form" placeholder="10:00">
+                </div>
+              </div>
+              <div class="row ml-5 mt-5">
+                <div class="col">
+                  <label for="date" class="news-text form-heading">Ваше имя</label>
+                  <input type="text" id="date" class="mr-3 form" placeholder="Борода">
+                </div>
+                <div class="col">
+                  <label for="time" class="news-text form-heading">Телефон</label>
+                  <input type="text" id="time" class="ml-3 form" placeholder="+7 123 456-78-90">
+                </div>
+
+              </div>
+              <div class="container-fluid">
+                <button class="btn btn-news btn-news3">отправить</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="row">
+      <div class="col-md-5">
+        <p class="footer-text">Барбершоп Бородинский<br>г. Санкт-Петербург, Б. Коюшенная, д. 19/8<br><a href="#"
+            class="footer-link">Как нас найти</a><br>Телефон: +7(495)666-02-66</p>
+      </div>
+      <div class="col-md-5">
+        <p class="footer-text">Давайте дружить!</p>
+        <div class="footer-icon-wrapper">
+          <a href="#"><i class="fab fa-vk footer-icon"></i></a>
+          <a href="#"><i class="fab fa-facebook footer-icon"></i></a>
+          <a href="#"><i class="fab fa-instagram footer-icon"></i></a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <p class="footer-text signature">Разработано:</p>
+        <div class="container-fluid">
+          <a href="#" class="btn footer-btn">Html Academy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

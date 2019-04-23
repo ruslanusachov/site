@@ -1,0 +1,99 @@
+.header {
+    width: 100%;
+    font-weight: bold;
+}
+
+.bow {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.bushcraft {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav {
+    display: flex;
+    width: 334px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: calc(50% - 167px);
+
+
+}
+
+.nav_ul {
+    list-style-type: none;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    text-transform: uppercase;
+}
+
+.nav_li {
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+.nav_li:last-child {
+    padding-right: 0;
+}
+
+.section {
+    display: flex;
+    position: relative;
+    width: 624px;
+    left: calc(50% - 312px);
+    padding: 20px 0;
+    color: skyblue;
+    text-align: center;
+
+}
+
+.article {
+    /* display: flex; */
+    border: 4px solid black;
+    width: 624px;
+    text-align: center;
+    position: relative;
+    left: calc(50% - 314px);
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 50px;
+    padding-inline-start: 0;
+}
+
+.article span {
+    padding-left: 50px;
+}
+
+.logo {
+    background: black;
+    color: white;
+    width: 120px;
+    padding: 20px 30px;
+    position: relative;
+    top: -80px;
+    left: calc(50% - 60px);
+}
+
+.aside {
+    display: grid;
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+}
+
+.fa {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.fa-twitter {
+    color: blue;
+}

@@ -1,0 +1,68 @@
+body {
+    background-image: url(space.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.sun {
+    background: yellow;
+    width: 222px;
+    height: 222px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -111px;
+    margin-top: -111px;
+    border-radius: 50%;
+    z-index: 5;
+    transition: transform 0.5s;
+}
+
+.sun:hover {
+    transform: scale(1.2);
+}
+
+.orbit {
+    position: absolute;
+    border: 4px solid white;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.orbit:hover .mars {
+    animation-play-state: paused;
+}
+
+.mars {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    left: calc(50% - 54px);
+    top: calc(50% - 54px);
+    transition: transform 0.5s, width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+    animation: anim 6s linear infinite;
+}
+
+.mars:hover {
+    width: 120px;
+    height: 120px;
+    left: calc(50% - 64px);
+    top: calc(50% - 64px);
+}
+
+@keyframes anim {
+    from {
+        transform: rotate(0deg) translateX(250px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+
+}

@@ -1,0 +1,38 @@
+/* *{
+  border: 0;
+} */
+header{
+  background: blue;
+  padding: 15px;
+}
+/* div{
+  background: orange;
+  margin-top: 40px;
+  padding-right: 15px;
+  display: inline-block;
+} */
+button{
+  color: white;
+  display: inline-block;
+}
+header button{
+  background: purple;
+  padding: 15px;
+}
+div button{
+  background: orangered;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  box-sizing: border-box;
+}
+header button, div button{
+    margin-right:  20px;
+}
+.popup{
+  background: yellow;
+  background-position: center;
+  z-index: 10;
+  width: 300px;
+  height: 300px;
+}
