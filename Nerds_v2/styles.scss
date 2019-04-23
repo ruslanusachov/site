@@ -41,7 +41,7 @@ body {
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .text-learn_more {
@@ -50,16 +50,27 @@ h2 {
   h1 {
     font-size: 55px;
   }
+
+  @media screen and (max-width: 480px){
+    h1{
+      font-size: 30px;
+    }
+  }
 }
 
 .carousel-item {
   min-height: 400px;
+
 }
 
 %item_with_bg {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 700px;
+
+  @media screen and (max-width: 480px){
+    background: none !important;
+  }
 }
 
 .first-item {
@@ -187,6 +198,10 @@ h2 {
 
   .text-header {
     font-size: 45px;
+
+    @media screen and (max-width: 480px){
+      font-size: 30px;
+    }
   }
 
   .percent {
@@ -218,6 +233,11 @@ h2 {
 .text-header {
   font-size: 36px;
   margin-bottom: 0;
+
+  @media screen and (max-width: 480px){
+    font-size: 23px;
+    padding-top: 10px;
+  }
 }
 
 .p-header {
@@ -244,6 +264,11 @@ h2 {
     margin: 50px;
     background: white;
     padding: 20px 50px 10px;
+
+
+    @media screen and (max-width: 480px){
+      margin: 10px;
+    }
 
   }
 
@@ -277,22 +302,18 @@ h2 {
     font-size: 1.7em;
   }
 }
-.popup{
-  max-width: 960px;
-  width: 100%;
-  max-height: 580px;
-  height: 100%;
-  background: #efc849;
-  padding: 100px;
-  input{
-    &[type=text]{
-      width: 100%;
-      // height: 100%;
-      min-height: 110px;
-      
-    }
+.main-popup{
+
+  .close{
+    color: #fb565a;
+    font-size: 40px;
+  }
+  textarea{
+    min-height: 120px;
+    resize: none;
   }
 }
+<<<<<<< HEAD
 .text-window {
 height: 120px !important;
 }
@@ -303,4 +324,9 @@ height: 120px !important;
 font-size: 50px;
 margin-top: 80px;
 color: #fecccd;
+=======
+
+.mobile-text-center{
+  text-align: center !important;
+>>>>>>> 591e73a92e7c80f41b9761f32f16475a3a689a72
 }

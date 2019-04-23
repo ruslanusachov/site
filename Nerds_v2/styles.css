@@ -30,12 +30,15 @@ body {
   padding: 20px 0 10px; }
 
 h2 {
-  font-size: 55px; }
+  font-size: 45px; }
 
 .text-learn_more {
   padding: 50px 0 0 20px; }
   .text-learn_more h1 {
     font-size: 55px; }
+  @media screen and (max-width: 480px) {
+    .text-learn_more h1 {
+      font-size: 30px; } }
 
 .carousel-item {
   min-height: 400px; }
@@ -44,6 +47,9 @@ h2 {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 700px; }
+  @media screen and (max-width: 480px) {
+    .first-item, .second-item, .third-item {
+      background: none !important; } }
 
 .first-item {
   background-image: url("slide1.png"); }
@@ -130,6 +136,9 @@ h2 {
 
 .studio .text-header {
   font-size: 45px; }
+  @media screen and (max-width: 480px) {
+    .studio .text-header {
+      font-size: 30px; } }
 
 .studio .percent {
   font-size: 45px; }
@@ -148,6 +157,10 @@ h2 {
 .text-header {
   font-size: 36px;
   margin-bottom: 0; }
+  @media screen and (max-width: 480px) {
+    .text-header {
+      font-size: 23px;
+      padding-top: 10px; } }
 
 .p-header {
   font-size: 16px;
@@ -167,6 +180,9 @@ h2 {
     margin: 50px;
     background: white;
     padding: 20px 50px 10px; }
+    @media screen and (max-width: 480px) {
+      .contacts .write_us {
+        margin: 10px; } }
   .contacts .marker {
     position: relative;
     right: 0;
@@ -193,6 +209,7 @@ h2 {
     width: 30px;
     font-size: 1.7em; }
 
+<<<<<<< HEAD
 .popup {
   max-width: 960px;
   width: 100%;
@@ -214,3 +231,15 @@ h2 {
   font-size: 50px;
   margin-top: 80px;
   color: #fecccd; }
+=======
+.main-popup .close {
+  color: #fb565a;
+  font-size: 40px; }
+
+.main-popup textarea {
+  min-height: 120px;
+  resize: none; }
+
+.mobile-text-center {
+  text-align: center !important; }
+>>>>>>> 591e73a92e7c80f41b9761f32f16475a3a689a72
