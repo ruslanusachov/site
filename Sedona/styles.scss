@@ -1,0 +1,22 @@
+$theme-color: #000;
+$text-color: $theme-color;
+
+a {
+color: $text-color !important;
+text-decoration: none !important;
+}
+.sedona-text{
+  color: #5c5c5c;
+}
+.sedona-img{
+  width: 100%;
+}
+.header-text{
+  font-weight: bold;
+}
+.intro{
+  background-image: url(intro.png);
+  width: 1200px;
+  background-repeat: no-repeat;
+}
+
