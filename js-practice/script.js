@@ -1,8 +1,8 @@
-// var admin, name = "Ruslan";
-// admin = name;
-// alert( admin );
-// var planetName = "Earth";
-// var username = "Peter";
-// alert( planetName );
-// alert( username );
-var ageVerify = prompt ("hello", "18") == 18;
+
+
+var num = prompt("Age", 18);
+var age = num;
+
+function checkAge(age){
+  return ( age > 18) ? true : confirm("Would your parents mind?");
+}

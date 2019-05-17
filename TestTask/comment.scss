@@ -1,0 +1,145 @@
+.header {
+  display: flex;
+  flex: row, nowrap;
+  justify-content: space-between;
+
+  @media screen and(max-width: 375px) {
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-top: 50px;
+  }
+
+  .header-link {
+    @media screen and (max-width: 375px) {
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    margin-top: 75px;
+    text-transform: uppercase;
+
+    .comp-link {
+      @media screen and(max-width: 375px) {
+        margin-top: 30px;
+      }
+
+      color: #505356;
+      text-decoration: none;
+      margin-left: 35px;
+    }
+  }
+
+  .comp-link.line {
+    border-top: #f9d10d 2px solid;
+    padding-top: 20px;
+  }
+}
+
+.box-wrapper {
+ 
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .text-wrapper {
+    @media screen and(max-width: 375px){
+      max-width: 200px;
+    }
+    padding-bottom: 100px;
+    border-bottom: #ededef 1px solid;
+    width: 750px;
+
+    .inner-link {
+      text-decoration: underline #000;
+      color: #000;
+
+      .fas.fa-arrow-left {
+        color: #60e3a1;
+        margin-right: 15px;
+      }
+    }
+
+    .main-heading {
+      @media screen and(max-width: 375px){
+        font-size: 20px;
+      }
+      font-size: 30px;
+      margin-top: 60px;
+    }
+
+    .second-pas {
+      margin-top: 40px;
+    }
+  }
+
+}
+.sum-text{
+  margin-bottom: 40px;
+  color: #888a8b;
+  font-size: 15px;
+  font-weight: bold;
+}
+.back-link{
+  background-color: #fff;
+  border: #60e3a1 1px solid;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #000;
+  padding: 15px 20px;
+}
+.fas.fa-arrow-left{
+  color: #60e3a1;
+  margin-right: 15px;
+}
+.section-wrapper{
+  @media screen and(max-width: 375px){
+    margin-top: 30px;
+  }
+margin-top: 100px;
+display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+}
+.footer{
+  @media screen and(max-width: 375px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #1d1e25;
+}
+.contacts{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #1d1e25;
+  color: #fff;
+} 
+.phone{
+
+  margin-top: -20px;
+}
+.copyright{
+  margin-right: 5px;
+  margin-top: 5px;
+  color: #4a4d5e;
+}
+ 
