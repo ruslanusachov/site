@@ -1,0 +1,204 @@
+.header {
+  background: #FCFDFF !important; }
+  .header .custom-link {
+    font-family: Helvetica Neue;
+    font-size: 17px; }
+
+.custom-btn {
+  border-radius: 0 5px 0 0 !important; }
+
+.menu-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.icon {
+  margin-top: 7px; }
+
+.icons {
+  margin-top: 15px; }
+
+.menu-link {
+  text-transform: uppercase;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  line-height: 20px;
+  color: #41537D; }
+
+.semi-section {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+  @media screen and (max-width: 414px) {
+    .semi-section {
+      margin-top: 30px; } }
+  .semi-section .heading {
+    font-family: Helvetica Neue;
+    font-size: 42px;
+    line-height: 51px;
+    color: #3D5174; }
+  .semi-section .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .semi-section .caption .underline {
+      width: 116px;
+      height: 2px;
+      left: 545px;
+      top: 499px;
+      border: 5px solid #F16C4B; }
+
+.sub-cap {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  line-height: 24px;
+  color: #54698F; }
+
+.img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-top: 100px; }
+  .img-wrapper .park-img {
+    float: right;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px; }
+    @media screen and (max-width: 414px) {
+      .img-wrapper .park-img {
+        margin-top: 10px;
+        margin-right: 20px; } }
+
+main {
+  margin-top: 20px;
+  background: #FAFAFA; }
+  main .section1 {
+    background: #FFF; }
+
+.page2-main {
+  background: #FFF; }
+  .page2-main .section2 {
+    background: #FAFAFA !important; }
+
+.group-wrapper {
+  padding-top: 100px; }
+  .group-wrapper .group {
+    max-width: 800px !important;
+    width: 100%; }
+
+.cap-wrapper {
+  margin-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .cap-wrapper .group-cap {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 20px;
+    color: #41537D; }
+
+.sub-heading {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 36px; }
+
+.common-text {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  color: #373E58; }
+
+@media screen and (max-width: 414px) {
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+.circle {
+  background: #d6d7d8;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%; }
+
+.icon1 {
+  margin-left: 5px;
+  margin-top: 10px; }
+
+.name-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .name-wrapper .name-text {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: #4C5B7C; }
+  .name-wrapper .date {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: #8390AE; }
+
+.semi-section1 {
+  background: #FAFAFA !important; }
+
+.group1 {
+  float: left;
+  max-width: 500px;
+  width: 100%; }
+
+.page2-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.sub-heading {
+  font-size: 30px;
+  font-weight: bold; }
