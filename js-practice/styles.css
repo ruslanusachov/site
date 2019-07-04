@@ -1,0 +1,6 @@
+.button ~ div {
+  visibility: hidden;
+}
+.button.active ~ div {
+  visibility: visible;
+}

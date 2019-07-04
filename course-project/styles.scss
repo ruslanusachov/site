@@ -1,0 +1,253 @@
+$maincolor: #ffb4ab;
+$themecolor: $maincolor;
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: $themecolor !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.my-link {
+  color: #fff !important;
+}
+
+
+.v-line {
+  padding-left: 30px;
+
+}
+.logo {
+  width: 250px !important;
+  margin-top: 40px;
+}
+
+.search-wrapper {
+  @media screen and(max-width: 375px) {
+    margin-top: 10px;
+    margin-left: 15px;
+    position: absolute;
+    }
+  margin-top: 100px;
+  position: absolute;
+}
+
+.search-icon {
+  @media screen and(max-width: 375px) {
+    position: relative;
+    top: 11px;
+    left: 165px;
+    
+  }
+  position: relative;
+  top: 101px;
+  left: 195px;
+}
+.cart-icon {
+  @media screen and (max-width: 375px) {
+    position: relative;
+    top: -14px;
+    left: 210px;
+
+  }
+  position: relative;
+  top: 75px;
+  left: 250px;
+}
+
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-top: 95px;
+
+    .custome-link {
+      text-decoration: none;
+      color: #656565;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+
+
+
+.carousel-custome {
+  
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+// .d-block.w-100 {
+//   @media screen and(max-width: 375px){
+//     height: 100vh !important;
+
+//   }
+// }
+
+.circle {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-right: 15px !important;
+
+}
+
+.info-wrapper {
+  @media screen and(max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px !important;
+
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -50px !important;
+}
+
+.info-section {
+  @media screen and(max-width: 375px) {
+    width: 80% !important;
+  }
+  margin-top: 50px;
+  box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.05);
+  .img-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .custome-img {
+    margin-top: 15px;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    // margin-left: 115px;
+  }
+
+  .info-subheading {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .info-text {
+    @media screen and(max-width: 375px){
+      margin-left: 30px;
+    }
+  
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@mixin heading {
+  color: #656565;
+  font-weight: bold;
+}
+
+.info-link {
+  @include heading;
+}
+
+.info-link:hover {
+  color: #656565;
+  text-decoration: none;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.custome-heading {
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  @include heading;
+}
+
+.custome-heading:hover {
+  border-radius: 3px;
+  background-color: $themecolor;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+
+.border-text {
+  border: $themecolor solid 2px;
+  padding: 15px 30px;
+}
+
+.why-us {
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;
+  @include heading;
+}
+.why-head {
+  @media screen and(max-width: 375px){
+  margin-left: 0px!important;    
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  .why-block {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.05);
+    .why-block-head {
+      @include heading;
+      
+    }
+  }
+  
+}
+
+.advantages{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.disappear {
+  display: none;
+}
+.to-top {
+
+  width: 60px;
+  height: 60px;
+  background-color: $themecolor;
+  border-radius: 50%;
+  position: fixed;
+  float: right;
+  right: 10px;
+  bottom: 100px;
+}
+.arrow {
+  width: 30px;
+  position: fixed;
+  float: right;
+  right: 25px;
+  bottom: 115px;
+  
+}
