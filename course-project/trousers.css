@@ -152,3 +152,50 @@
 
 .sell-item {
   margin-left: 60px; }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: block !important;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .modal .modal-content {
+    margin: 5% auto;
+    max-width: 700px;
+    width: 100%;
+    padding: 30px; }
+  .modal #close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #656565;
+    cursor: pointer; }
+  .modal .modal-pic {
+    max-width: 500px !important;
+    width: 100%; }
+
+.none {
+  display: none !important; }
+
+.to-top {
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  background-color: #ffb4ab;
+  border-radius: 50%;
+  position: fixed;
+  float: right;
+  right: 10px;
+  bottom: 100px;
+  cursor: pointer; }
+  .to-top .arrow {
+    position: absolute;
+    font-size: 40px;
+    top: 19px;
+    left: 19px; }

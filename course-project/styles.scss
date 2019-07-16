@@ -233,7 +233,7 @@ $themecolor: $maincolor;
   display: none;
 }
 .to-top {
-
+  z-index: 1;
   width: 60px;
   height: 60px;
   background-color: $themecolor;
@@ -242,12 +242,12 @@ $themecolor: $maincolor;
   float: right;
   right: 10px;
   bottom: 100px;
-}
-.arrow {
-  width: 30px;
-  position: fixed;
-  float: right;
-  right: 25px;
-  bottom: 115px;
+  cursor: pointer;
+  .arrow{
+    position: absolute;
+    font-size: 40px;
+    top: 19px;
+    left: 19px;
+  }
   
 }

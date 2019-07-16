@@ -7,33 +7,50 @@ head.onclick = function () {
  };
 
 
-//  var aboutUs = document.getElementById('about-us');
-
-//  window.onscroll = function() {
-   
-//    if (window.pageYOffset > 1328) {
-//    return aboutUs.classList.remove('hidden');
+ 
+ 
+//  window.onscroll = function showBtn() {
+//    if(window.pageYOffset >= 400){
+ 
+//      toTop.classList.remove('hidden');
+     
+//    } else if(window.pageYOffset < 400){
+ 
+//      toTop.classList.add('hidden');
+     
 //    }
 //  };
-var arrow = document.getElementsByClassName('to-top')[0];
-window.onscroll = function showArrow() {
-  if (window.pageYOffset > 800) {
-    arrow.classList.remove('hidden');
-  } else {
-     arrow.classList.add('hidden');
-  }
-};
+ 
+//  window.onscroll = function() {
+
+//   if(window.pageYOffset >= 400){
+//     toTop.classList.remove ('disappear');
+//   }
+
+// }
+
+
 
 var whyUs = document.getElementById('advantages');
 
-window.onscroll = function showWhyUs() {
-    
-  if (window.pageYOffset > 1370) {
+
+window.onscroll = function showBlock () {
+    if (window.pageYOffset > 1370) {
     whyUs.classList.remove('hidden');
-  } else {
+
+  }else if(window.pageYOffset < 1370) {
+    
     whyUs.classList.add('hidden');
 
-  }
-
+  } 
 };
 
+
+var toTop = document.getElementsByClassName('to-top')[0];
+ toTop.onclick = function() {
+   window.scrollTo(0, 1000);
+   window.scrollTo({
+     top: 1000,
+     behavior: "smooth"
+   });
+ };
