@@ -9,27 +9,6 @@ head.onclick = function () {
 
 
 
-//  window.onscroll = function showBtn() {
-//    if(window.pageYOffset >= 400){
-
-//      toTop.classList.remove('hidden');
-
-//    } else if(window.pageYOffset < 400){
-
-//      toTop.classList.add('hidden');
-
-//    }
-//  };
-
-//  window.onscroll = function() {
-
-//   if(window.pageYOffset >= 400){
-//     toTop.classList.remove ('disappear');
-//   }
-
-// }
-
-
 
 
 function isScrolledIntoView(el) {
@@ -40,7 +19,6 @@ function isScrolledIntoView(el) {
   // Only completely visible elements return true:
   var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
   // Partially visible elements return true:
-  //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
   return isVisible;
 }
 

@@ -1,11 +1,12 @@
 var toTop = document.getElementsByClassName('to-top')[0];
- toTop.onclick = function() {
-   window.scrollTo(0, 1000);
-   window.scrollTo({
-     top: 1000,
-     behavior: "smooth"
-   });
- };
+toTop.onclick = function (e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+};
 
 window.onscroll = function showBtn() {
   if(window.pageYOffset >= 400){
