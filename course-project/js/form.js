@@ -1,8 +1,13 @@
 var err = false;
 
+var btnSubm = document.getElementsByClassName('custome-btn')[0];
 
+btnSubm.addEventListener('click', function(e){
+  e.preventDefault();
+  validate();
+});
 function validate() {
-  
+    
 var fname = document.getElementById('fname');
 var lname = document.getElementById('lname');
 
