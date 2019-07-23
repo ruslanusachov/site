@@ -1,14 +1,11 @@
 var err = false;
 var btnSub = document.getElementById('btnSub');
 
-<<<<<<< HEAD
 btnSub.onclick = function(e) {
   e.preventDefault();
   validate();
 };
-=======
-var btnSubm = document.getElementsByClassName('custome-btn')[0];
->>>>>>> f8178de9e98b1c5053f3e0067ad08f8f3c7c22f7
+
 
 btnSubm.addEventListener('click', function(e){
   e.preventDefault();
