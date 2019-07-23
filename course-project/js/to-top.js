@@ -1,3 +1,26 @@
+function isScrolledIntoView(el) {
+  var rect = el.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  // Only completely visible elements return true:
+  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+  // Partially visible elements return true:
+  return isVisible;
+}
+
+window.onscroll = function showBlock() {
+  var whyUs = document.getElementById('advantages');
+
+  if (isScrolledIntoView(whyUs)) {
+    whyUs.classList.remove('hidden');
+
+  } else {
+    whyUs.classList.add('hidden');
+  }
+};
+
+
 var toTop = document.getElementsByClassName('to-top')[0];
 toTop.onclick = function (e) {
   e.preventDefault();
@@ -6,16 +29,4 @@ toTop.onclick = function (e) {
     behavior: "smooth"
   });
 
-};
-
-window.onscroll = function showBtn() {
-  if(window.pageYOffset >= 400){
-
-    toTop.classList.remove('hidden');
-    
-  } else if(window.pageYOffset < 400){
-
-    toTop.classList.add('hidden');
-    
-  }
 };

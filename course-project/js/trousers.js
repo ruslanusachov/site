@@ -26,3 +26,32 @@ if(event.target == modal){
 
 }
 };
+
+
+// var modal = document.getElementById('signIn');
+// var buyBtn = document.getElementById('acc');
+// var closeBtn = document.getElementById('close');
+
+
+
+
+
+//   acc.onclick = function () {
+
+//     modal.classList.remove('none');
+
+//   };
+  
+
+// closeBtn.onclick = function() {
+
+//   modal.classList.add('none'); 
+
+// }
+// window.onclick = function(event) {
+
+// if(event.target == modal){
+//   modal.classList.add('none'); 
+
+// }
+// };

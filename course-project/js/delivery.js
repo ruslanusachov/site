@@ -1,3 +1,30 @@
+var modal = document.getElementById('myModal');
+var buyBtn = document.getElementById('acc');
+var closeBtn = document.getElementById('close');
+
+
+
+
+
+  acc.onclick = function () {
+
+    modal.classList.remove('none');
+
+  };
+  
+
+closeBtn.onclick = function() {
+
+  modal.classList.add('none'); 
+
+}
+window.onclick = function(event) {
+
+if(event.target == modal){
+  modal.classList.add('none'); 
+
+}
+};
 var err = false;
 var btnSub = document.getElementById('btnSub');
 
@@ -7,34 +34,9 @@ btnSub.onclick = function(e) {
 };
 
 function validate() {
-  
-var fname = document.getElementById('fname');
-var lname = document.getElementById('lname');
-
-var fnameValue = fname.value;
-var lnameValue = lname.value;
-
-
-     if(fnameValue != '' &&  fnameValue.length >= 3  ) {
-       fname.classList.remove('error');
-       err = false;
-     } else  {
-       fname.classList.add('error');
-       err = true;
-     }
-     if(lnameValue != '' && lnameValue.length >= 3) {
-       lname.classList.remove('error');
-       err = false;
-      
-     } else  {
-       lname.classList.add('error');
-       err = true;
-     }
-  
   validateEmail();
   validatePassword();
-  validateNum();
-
+    
   if(!err) {
     form.submit();
   }
@@ -65,16 +67,4 @@ function validatePassword() {
     password.classList.add('error');
     err = true;
   }
-}
-function validateNum() {
-  var num = document.getElementById('num');
-  var numValue = num.value;
-  if (numValue != '' && !isNaN(numValue)) {
-    err = false;
-    num.classList.remove('error');
-  } else {
-    err = true;
-    num.classList.add('error');
-  }
-  
 }
