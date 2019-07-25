@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="">
+
+    <title>Tradenet</title>
+    <meta name="description" content="Tradenet" />
+    <meta name="keywords" content="Tradenet" />
+    <meta name="author" content="Arthur Riepin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!-- js -->
+  </head>
+  <body>
+  <main>
+    <section class="top-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left-block">
+            <h1 class="main-title">We teach you. <br> We fund you.</h1>
+            <h2 class="sub-title bg-title white">You keep most of the profits</h2>
+            <p class="sub-text black">
+              We have educated more than <br>
+              <span class="sub-title blue">16,000 traders worldwide</span> <br>
+              since 2004 & completely funded their trading accounts. You can be next
+            </p>
+            <div class="grey-block"></div>
+          </div>
+          <div class="col-md-5 col-md-offset-1 bl-bg-block-col">
+            <div class="black-bg-block">
+              <figure class="logo"></figure>
+              <h3 class="white">You’re one step away from <br> joining our elite trading team</h3>
+              <p class="text white small-text">Just fill in the fields below with your personal data</p>
+              <form action="" id="form">
+                <div class="form-group name icon">
+                  <input type="text" name="fname" class="" id="fname" placeholder="First Name">
+                  <label for="fname">This field can't be empty and less 3 chars</label>
+                </div>
+                <div class="form-group name icon">
+                  <input type="text" name="lname" class="" id="lname" placeholder="Last Name">
+                  <label for="lname">This field can't be empty and less 3 chars</label>
+                </div>
+                <div class="form-group email icon">
+                  <input type="email" class="" name="email" id="email" placeholder="Email">
+                  <label for="email">This field can't be empty and should be valid</label>
+                  <span class="exist-label">This email is already in use</span>
+                </div>
+                <div class="form-group country icon">
+                  <select name="country" id="country">
+                    <option value="Romania">Romania</option>
+                    <option value="USA">USA</option>
+                    <option value="Ukraine">Ukraine</option>
+                  </select>
+                </div>
+                <div class="form-group phone icon">
+                  <div class="phone-code">
+                    <input type="tel" class="prefix" name="prefix" id="prefix" placeholder="+4000">
+                    <label for="phone">This field can't be empty, only digits</label>
+                  </div>
+                  <input type="tel" class="" name="number" id="number" placeholder="Phone">
+                  <label for="phone">This field can't be empty, only digits</label>
+                </div>
+                <div class="form-group submit">
+                  <input type="button" name="submitBtn" id="submitBtn" class="submit-btn" value="Try a 14-day trial period" onclick="sendForm()">
+                </div>
+              </form>
+              <p class="text white">You will be contacted shortly by one of our trading mentors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="middle-section">
+      <div class="container">
+        <h2 class="black">What we offer</h2>
+        <div class="row">
+          <div class="col-md-4 bullets bullet-1">
+            <figure></figure>
+            <h4 class="blue">Personalized trading education</h4>
+            <p class="text">
+              <b>Meir Barak</b> and his team of highly skilled financial experts provide you with 1-on-1 personal mentorship in the art of day trading
+            </p>
+          </div>
+          <div class="col-md-4 bullets bullet-2">
+            <figure></figure>
+            <h4 class="blue">A pro funded account</h4>
+            <p class="text">
+              Upon completion of a Self-Study course and a 14-day demo practice you will receive a funded trading account of up to $240,000.
+            </p>
+            <p class="text">
+              Any losses are absorbed by Tradenet and you keep 80% to 95% of the profits you earn from trading 
+            </p>
+          </div>
+          <div class="col-md-4 bullets bullet-3">
+            <figure></figure>
+            <h4 class="blue">Stellar trading academy</h4>
+            <p class="text"> 
+              <span class="dot"></span>
+              Get access to extensive training materials, Demo Account, live practice sessions & much more, everything designed for your skill level
+            </p>
+            <p class="text"> 
+              <span class="dot"></span>
+              All with as low as $500!
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="cta-section">
+      <h2 class="white">Allow us to fund you</h2>
+      <a href="#" class="cta-button">Start now</a>
+    </section>
+
+  </main>
+  <footer>
+    <p class="text">
+      Tradenet is a Day Trading Training school that offers day and swing trading courses in stocks, CFDs, options, futures and Forex. At Tradenet we specialize in day trading courses that are suitable for those familiar with day trading, or beginners with no prior knowledge or experience with day trading.
+    </p>
+    <p class="text">
+      We offer three different learning options; Self-Study online course, online courses in the comfort of your own home or an exclusive course, one-on-one with an experienced day trading mentor at your own pace. We also offer online live day Trading Room and the potential for funded sub-accounts for our students. Most of our services are offered in several languages, including: Spanish, German, French, Russian, Hungarian, Italian, Arabic and more.
+    </p>
+  </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
