@@ -1,0 +1,303 @@
+body{
+  
+  margin: 0;
+  padding: 0;
+}
+@mixin font {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 20px;    
+  font-family: sans-serif; 
+}
+.header {
+  @media screen and(max-width: 375px) {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+    .header__logo {
+      @media screen and(max-width:375px) {
+        margin-left: -10px;
+      }
+      margin-top: 20px;
+      margin-left: 20px;
+      max-width: 100px;
+      width: 100%;
+    }
+    .header__link {
+      @media screen and(max-width:375px) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      @include font;
+      z-index: 2;    
+      text-decoration: none;
+    }
+  .header__btn {
+    @media screen and(max-width:375px) {
+      margin-top: 10px;
+    }
+    @include font;
+    border: 1px, #757575, solid;
+    background-color: transparent;
+    min-height: 50px;
+    border-radius: 15px;
+    z-index: 2;
+    cursor: pointer;
+    padding: 5px 10px;
+
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding-bottom: 100px;
+  
+  .info__heading {
+    @media screen and(max-width: 375px){
+      font-size: 30px;
+    }
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+  }
+  .info__bold {
+    @media screen and(max-width: 375px){
+      text-align: center;
+    }
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold !important;
+  }
+  .info__text {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+}
+.strategy {
+  @media screen and(max-width: 375px) {
+    flex-direction: column;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .strategy__block {
+    @media screen and(max-width: 375px) {
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .strategy-img__wrapper{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: end;
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin-right: 50px;
+      .strategy__heading {
+        font-family: sans-serif;
+        font-size: 42px;
+        margin-top: 0px;
+      }
+      .strategy__img {
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+    .strategy__wrapper {
+      @media screen and(max-width: 375px) {
+      width: 90vw;
+      margin-left: -50px;
+      
+      }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      font-family: sans-serif;
+      margin-left: 50px;
+       .strategy__bold {
+        font-weight: bold;
+
+      }
+    }
+  }
+  .strategy__underline {
+    width: 90px;
+    height: 5px;
+    background-color: #757575;
+  }
+}
+.concerts {
+  
+  display: flex;
+  flex-direction: column;
+  background-image: url(../pics/concert.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  left: 0;
+  .concerts__block{
+    @media screen and(max-width: 375px) {
+      justify-content: center;
+    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 2;
+  .concerts__wrapper {
+    @media screen and(max-width: 375px) {
+      flex-direction: column;
+      margin-left: 60px;
+      width: 90vw;
+    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+      .concerts__heading {
+        @media screen and(max-width: 375px){
+          font-size: 60px;
+          margin-left: 30px;
+        }
+        color: #fff;
+        font-size: 80px;
+        margin-right: 100px;
+      }
+      .concerts__text {
+        @media screen and(max-width: 375px){
+          font-size: 20px;
+        }
+        color: #fff;
+        font-size: 26px;
+        .concerts__link {
+          text-decoration: none;
+          color: #fff;
+          border-bottom: 3px solid red;
+          padding-bottom: 3px;
+        }
+      }
+    }
+    .concerts__event {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 30px;
+      margin-right: 30px;
+      .concerts__img {
+        max-width: 250px;
+        width: 100%;
+        border-radius: 20px;
+      }
+      .concerts__caption {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .concerts__date {
+        color: red;
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+.concerts:before {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+min-width: 375px;
+width: 100%;
+background: rgba(0,0,0, .5);
+}
+.footer__wrapper {
+  @media screen and(max-width: 375px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #757575;
+  .footer__heading {
+    color: #fff;
+  }
+  .footer__text {
+    color: #fff;
+    margin-top: 25px;
+  }
+  .footer__caption {
+    color: #fff;
+  }
+  .footer__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    .footer__link {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+.to-top {
+  z-index: 3;
+  position: fixed;
+  float: right;
+  right: 10px;
+  bottom: 100px;
+  cursor: pointer;
+  .to-top__img {
+    min-width: 50px;
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s;
+  }
+}
+.element{
+  opacity: 1;
+  transition: 0.5s;
+ 
+}
+.element {
+  @media screen and(max-width: 375px) {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}

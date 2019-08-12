@@ -2,16 +2,39 @@ $maincolor: #ffb4ab;
 $themecolor: $maincolor;
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   background-color: $themecolor !important;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  position: relative;
-  min-height: 75px;
-  padding-left: 30px;
-  
+  display: block !important;
+  @media screen and(max-width: 375px){
+    position: relative;
+    min-width: 100%;
+    min-height: 60px;
+    padding-left: 30px;
+    .navbar-nav.mr-auto.mt-2.mt-lg-0{
+      @media screen and(max-width: 375px){
+        margin-left: 70px;
+      }
+    }
+    
+    button.navbar-toggler#sandwich {
+      position: fixed !important;
+    }
+    button.navbar-toggler.collapsed #sandwich {
+      position: fixed !important;
+    }
+  }
+  .button-wrapper{
+    @media screen  and(max-width: 375px){
+      position: fixed;
+    }
+  }
 }
-button.navbar-toggler.collapsed #sandwich {
-  position: fixed;
+
+
+ul.nav{
+  @media screen and(max-width: 375px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .my-link {
@@ -79,6 +102,9 @@ button.navbar-toggler.collapsed #sandwich {
       color: #656565;
       font-weight: bold;
       text-transform: uppercase;
+      @media screen and(max-width: 375px){
+        margin-top: 20px;
+      }
     }
   }
 
@@ -328,7 +354,9 @@ button.navbar-toggler.collapsed #sandwich {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   input {
+    
     max-width: 400px;
     width: 100%;
     padding-left: 10px;
